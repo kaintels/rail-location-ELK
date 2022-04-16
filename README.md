@@ -25,9 +25,9 @@ docker-compose build && docker-compose up -d
 [사용한 공공데이터](https://www.data.go.kr/tcs/dss/selectDataSetList.do?dType=FILE&keyword=%EC%88%98%EB%8F%84%EA%B6%8C+%EC%97%AD%EC%9C%84%EC%B9%98&detailKeyword=&publicDataPk=&recmSe=N&detailText=&relatedKeyword=&commaNotInData=&commaAndData=&commaOrData=&must_not=&tabId=&dataSetCoreTf=&coreDataNm=&sort=_score&relRadio=&orgFullName=&orgFilter=&org=&orgSearch=&currentPage=1&perPage=10&brm=&instt=&svcType=&kwrdArray=&extsn=&coreDataNmArray=&pblonsipScopeCode=)
 
 
-로그스태시 log 조회
+로그스태시 log 조회 (컨테이너 이름이 logstash일 경우)
 ```
-docker-compose logs d
+docker-compose logs logstash
 ```
 
 kibana - > dev tools에서 인덱스 템플릿 생성
